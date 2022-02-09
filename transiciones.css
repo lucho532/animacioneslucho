@@ -1,0 +1,169 @@
+.div{
+background-image: url(./multimedia/trippy.gif);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+ /* animation-name: div;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;*/
+
+}
+/*@keyframes div{
+0%{
+ background: purple;
+}
+25%{background: rgb(63, 12, 12);}
+50%{background: pink;}
+75%{background: rgb(12, 0, 0);}
+100%{background: rgb(240, 80, 80);}
+}*/
+.principe{
+width: 100px;
+height: 100px;
+margin-right: 100px;
+animation-name: principe;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes principe{
+0%{transform: translatex(100px);
+}
+}
+
+.princesa{
+width: 100px;
+height: 100px;
+margin-right: 100px;
+animation-name: princesa;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes princesa{
+0%{transform: translatex(100px);
+}
+}
+
+.madrina{
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+  animation-name: madrina;
+  animation-duration:2s; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  }
+  @keyframes madrina{
+  0%{transform: translatex(100px);
+  }
+  }
+.rana{
+width: 100px;
+height: 100px;
+animation-name: rana;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes rana{
+0%{transform: translatex(100px);
+}
+}          
+.castillo{
+width: 100px;
+height: 100px;
+padding-right: 100px;
+padding-left: 50px;
+animation-name: castillo;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+}
+@keyframes castillo {
+0%{transform: rotate(45deg);}
+50%{transform: rotate(-45deg )}
+
+}
+
+.lampara{
+width: 100px;
+height: 100px;
+padding-right: 100px;
+animation-name: lampara;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes lampara{
+  0%{transform: rotate(45deg)}
+  50%{transform: rotate(-45deg )}
+}
+.espada{
+width: 100px;
+height: 100px;
+padding-right: 100px;
+animation-name: espada;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes espada{
+  0%{transform: rotate(45deg);}
+  50%{transform: rotate(-45deg )
+}
+}  
+.manzana{
+width: 100px;
+height: 100px;
+animation-name: manzana;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes manzana{
+  0%{transform: rotate(45deg);}
+  50%{transform: rotate(-45deg )
+}
+} 
+.bruja:hover{
+width: 100px;
+height: 100px;
+padding: 100px;
+animation-name: bruja;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes bruja{
+  0%{transform: skewX(20deg);
+}
+50%{transform: skewY(10deg);}
+75%{transform: matrix(2, 0, 0, 2, 0, 0);}
+}         
+.dragon:hover{
+width: 100px;
+height: 100px;
+animation-name: dragon;
+animation-duration: 2s;
+animation-iteration-count: infinite; 
+animation-direction: alternate-reverse;
+}
+@keyframes dragon {
+0%{transform:scale(2);}
+}
+.nomo:hover{
+width: 100px;
+height: 100px;
+padding: 100px;
+animation-name: nomo;
+animation-duration:2s; 
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+@keyframes nomo{
+  0%{transform: rotate(360deg);
+}
+}
